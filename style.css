@@ -1,0 +1,40 @@
+h1 {color: yellowgreen; background-color: brown; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body {
+color:white; background-color: green;}
+#universal {
+
+}
+.class1 {
+    background-attachment: white;
+color: black;
+text-align: center;
+}
+.class2 {
+    text-align: center;
+}
+#ewwfeet {
+    height: 100px;
+    width: 100%
+    left: 390px;
+    text-align: center;
+    background-color: lightslategray; color: black;
+    font-weight: bolder;
+    border: solid black; position: inherit;
+    margin-top: auto 0;
+    margin-bottom: auto 0;
+    margin-left: auto 0;
+    margin-right: auto 0;
+}
+img {
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    margin: 20px;
+}
+p {
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
