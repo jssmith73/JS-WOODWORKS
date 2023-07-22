@@ -1,4 +1,32 @@
-h1 {color: yellowgreen; background-color: brown; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 115%;
+}
+header {
+    background-color: ;
+    position: fixed;
+    width: 100%;
+    text-align: top;
+}
+title {color: yellowgreen;
+    width: 100%;
+    top: 0;
+}
+h1 {
+    color: yellowgreen;
+    text-align: center;
+    font-size: larger;
+    width: 100%;
+}
+ul {
+    text-align: right;
+}
+li {
+    display: inline;
+    color: yellowgreen;
+    font-size: 20px;
+}
+h2 {
 
 }
 body {
@@ -14,18 +42,32 @@ text-align: center;
 .class2 {
     text-align: center;
 }
+#Link1 {
+    color: yellowgreen;
+    background-color: aliceblue;
+}
+#Link2{
+    color: yellowgreen;
+    background-color: aliceblue;
+}
+#Link3 {
+color: yellowgreen;
+background-color: aliceblue;
+}
 #ewwfeet {
-    height: 100px;
-    width: 100%
-    left: 390px;
+    height: 100%;
+    width: 100%;
     text-align: center;
     background-color: lightslategray; color: black;
     font-weight: bolder;
-    border: solid black; position: inherit;
-    margin-top: auto 0;
-    margin-bottom: auto 0;
-    margin-left: auto 0;
-    margin-right: auto 0;
+    border: solid black;
+    position: center;
+    margin: auto 0;
+}
+#contact {
+    height: 100px;
+    text-align: center;
+    display: block;
 }
 img {
     width: 350px;
@@ -37,4 +79,7 @@ p {
     font-size: larger;
     font-weight: bold;
     color: black;
+}
+strong {
+    color: white;
 }
