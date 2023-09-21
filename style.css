@@ -1,62 +1,59 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 115%;
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 26px;
 }
+
 header {
-    position: fixed;
     width: 100%;
     text-align: top;
+    display: grid;
+    gap: 40px;
+    background-color: rgb(186, 186, 149);
+    border: solid black 3px;
+
 }
 
-title {
-    color: yellowgreen;
-    width: 100%;
-    top: 0;
-    float: left;
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 25px;
+#logo {
+    width: 1000px;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 h1 {
-    color: yellowgreen;
-    background-color: beige;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 90px;
+    font-size: 50px;
+}
+
+.links {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    padding: 25px;;
+    }
+
+.links li {
+    position: relative;
+    list-style: none;
+}
+a {
+    color: brown;
+}
+
+#intro {
     text-align: center;
-    font-size: larger;
-    width: 100%;
-    margin-top: 20px;
 }
 
 #furniture {
     text-align: center;
 }
 
-ul {
-    text-align: right;
-}
-
-li {
-    display: inline;
-    color: yellowgreen;
-    font-size: 20px;
-}
-
-h2 {
-
-}
-
 body {
-color:white; background-color: green;}
-#universal {
-
+background-color: rgb(31, 64, 31);
 }
 
 .class1 {
-    background-color: beige;
 color: black;
 text-align: center;
 }
@@ -71,15 +68,12 @@ text-align: center;
     text-align: center;
 }
 
-a {
-    color: yellowgreen;
-}
-
 #ewwfeet {
     height: 100%;
     width: 100%;
     text-align: center;
-    background-color: lightslategray; color: black;
+    background-color: rgb(186, 186, 149);
+    color: black;
     font-weight: bolder;
     border: solid black;
     position: center;
@@ -99,12 +93,13 @@ img {
     margin: 20px;
 }
 
-p {
-    font-size: larger;
-    font-weight: bold;
-    color: black;
+h2 {
+    color: white;
 }
 
-strong {
+p {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
     color: white;
 }
