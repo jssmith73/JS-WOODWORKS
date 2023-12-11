@@ -53,7 +53,7 @@ body {
 background-color: rgb(31, 64, 31);
 }
 
-.class1 {
+.category {
 color: black;
 text-align: center;
 }
@@ -62,10 +62,6 @@ text-align: center;
     height: 200px;
     width: 200px;
     border-radius: 200px;
-}
-
-.class2 {
-    text-align: center;
 }
 
 #ewwfeet {
