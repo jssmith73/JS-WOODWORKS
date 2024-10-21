@@ -1,68 +1,163 @@
 <!DOCTYPE html>
 <html>
 
-<head class="head">
+<head>
     <title>JS WOODWORKS</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style\css\style.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
 
-    <header>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"><b>JS</b> Woodworks</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
+    </div>
 
-        <!-- Logo -->
-        <!-- <img src="images/JS LOGO.png" alt="JSW LOGO" id="logo"> -->
-
-        <h2 class="JSW">JS WOODWORKS</h2>
-
-        <!-- Links -->
-        <ul class="links">
-                <li id="Link1"><a href="#">Home</a></li>
-                <li id="Link2"><a href="#">About</a></li>
-                <li id="Link3"><a href="file:///C:/Users/jman1/bootcamp/week-1-project/contact.html">Contact</a></li>
-                <li id="Link1"><a href="#">Gallery</a></li>
-            </ul>
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="images\woodworking-hero.png" alt="Architecture" width="1500" height="800">
+        <div class="w3-display-middle w3-margin-top w3-center">
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>JS</b></span> <span
+                    class="w3-hide-small w3-text-light-grey">Woodworks</span></h1>
+        </div>
     </header>
 
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
 
-    <section class="category">
-        <!-- Intro -->
-        <h1 style="color: white;">What JSW has to offer...</h1>
-        <p>Farmhouse Style Furniture</p>
-        <img src="images/Table 2.png" alt="Farmhouse Table">
-        <img src="images/Kitchen-table.png" alt="Farmhouse Table">
-        <img src="images/square farmhouse table.jpg" alt="">
-    </section>
+        <!-- Project Section -->
+        <div class="w3-container w3-padding-32" id="projects">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+        </div>
 
-    <section class="category">
-        <p>Worktables</p>
-        <!-- Work Benches -->
-        <img src="images/4x8 table side-view.JPEG" alt="">
-        <img src="images/4x4 side-view.JPEG" alt="">
-        <img src="images/3x8s(2).JPEG" alt="">
-        <img src="images/2x8 with backsplash.JPEG" alt="">
-        <img src="images/2x8s with backsplash.JPEG" alt="">
-    </section>
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Work Tables</div>
+                    <img src="images\Photoroom_20240511_073927.JPG" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Farmhouse Furniture</div>
+                    <img src="images\Photoroom_20240515_123253.JPG" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Outdoor Essentials</div>
+                    <img src="images\Filled-Raised-Garden-Beds.jpg" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Wine Racks</div>
+                    <img src="images\Winerack2.png" alt="House" style="width:100%">
+                </div>
+            </div>
+        </div>
 
-    <section class="category">
-        <!-- Other Stuff -->
-        <img src="images/Winerack2.png" alt="Wine Rack">
-        <img src="images/Planter.png" alt="Planter Box">
-        <img src="images/Repurposed door shelf.jpg">
-        <img src="images/cornhole boards.jpg" alt="cornhole-boards">
-        <img src="images/cookbook-stand.jpg" alt="cookbook-stand">
-        <img src="images/tie-the-knot cross board.jpg" alt="">
-    </section>
-    <br>
-    <footer>
-        <section id="footer">
-            <p>336-964-6600</p>
-            <p>josiahsmith1359@gmail.com</p>
-        </section>
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Tool Storage</div>
+                    <img src="images\cordless-drill-charge-no-drawer-885x1024.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Metal Frames</div>
+                    <img src="images\metal frame desk.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Outdoor Games</div>
+                    <img src="images\cornhole boards.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Special Requests</div>
+                    <img src="images\tie-the-knot cross board.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+            <p>Welcome to my portfolio! I’m Josiah, a carpenter/welder in Randolph County. With a passion for furniture,
+                I strive to provide practical as well as aesthetically pleasing works for my clients.
+
+                I have a background in welding and building furniture from a renowned company based in Boone, NC, which
+                has equipped me with a diverse skill set in manufacturing skillfully crafted pieces of furniture. Over
+                the years, I’ve had the privilege of working with several local businesses and entrepenuers, allowing me
+                to hone my craft and push creative boundaries.
+
+                When I’m not honing my woodworking craft, you can find me tinkering with welding projects or building
+                upon my backyard homestead. I'm always looking for inspiration in the world around me and I'm always
+                excited for a new challenge.
+
+                Thank you for visiting my website! I’m excited to share my work with you and hope we can connect soon.
+            </p>
+        </div>
+
+        <div class="w3-row-padding w3-grayscale">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <img src="images\js-profile.jpeg" alt="John" style="width:100%">
+                <h3>Josiah Smith</h3>
+                <p class="w3-opacity"> - Owner</p>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-32" id="contact">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>Lets get in touch and talk about your next project.</p>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+                <button class="w3-button w3-black w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </form>
+        </div>
+
+        <div>
+            <h2 style="text-align: center;">
+                Text or Call 336-964-6600
+            </h2>
+            <br>
+        </div>
+
+        <!-- Image of location/map -->
+        <div class="w3-container">
+            <img src="images\woodworking-footer.jpg" class="w3-image" style="width:100%">
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
     </footer>
-    <br>
+
 </body>
 
 </html>
