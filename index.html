@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
@@ -36,56 +38,82 @@
     <div class="w3-content w3-padding" style="max-width:1564px">
 
         <!-- Project Section -->
+
+        <!-- HEADER -->
+
         <div class="w3-container w3-padding-32" id="projects">
             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
         </div>
 
         <div class="w3-row-padding">
+
+            <!-- WORKTABLES -->
+
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Work Tables</div>
-                    <img src="images\Photoroom_20240511_073927.JPG" alt="House" style="width:100%">
+                    <img src="images\4x8-AI.JPG" alt="House" style="width:100%">
                 </div>
             </div>
+
+            <!-- FURNITURE -->
+
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Farmhouse Furniture</div>
-                    <img src="images\Photoroom_20240515_123253.JPG" alt="House" style="width:100%">
+                    <img src="images\Farmhouse-table-AI.JPG" alt="House" style="width:100%">
                 </div>
             </div>
+
+            <!-- OUTDOOR STUFF -->
+
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Outdoor Essentials</div>
                     <img src="images\Filled-Raised-Garden-Beds.jpg" alt="House" style="width:100%">
                 </div>
             </div>
+
+            <!-- WEDDING STUFF -->
+
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Wine Racks</div>
-                    <img src="images\Winerack2.png" alt="House" style="width:100%">
+                    <div class="w3-display-topleft w3-black w3-padding">Wedding Essentials</div>
+                    <img src="images\tie-the-knot cross board.jpg" alt="House" style="width:100%">
                 </div>
             </div>
         </div>
 
         <div class="w3-row-padding">
+
+            <!-- TOOL STORAGE -->
+
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Tool Storage</div>
                     <img src="images\cordless-drill-charge-no-drawer-885x1024.jpg" alt="House" style="width:99%">
                 </div>
             </div>
+
+            <!-- METAL FRAMES -->
+
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Metal Frames</div>
                     <img src="images\metal frame desk.jpg" alt="House" style="width:99%">
                 </div>
             </div>
+
+            <!-- OUTDOOR GAMES -->
+
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Outdoor Games</div>
                     <img src="images\cornhole boards.jpg" alt="House" style="width:99%">
                 </div>
             </div>
+
+            <!-- SPECIAL REQUESTS -->
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Special Requests</div>
@@ -121,26 +149,41 @@
             </div>
         </div>
 
-        <!-- Contact Section -->
         <div class="w3-container w3-padding-32" id="contact">
             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
             <p>Lets get in touch and talk about your next project.</p>
-            <form action="/action_page.php" target="_blank">
-                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+
+            <!-- CONTACT FORM -->
+
+            <form action="https://formspree.io/f/xykvkpjz" method="POST">
+
+                <input class="w3-input w3-border" type="text" name="name" placeholder="Name" required>
+
+                <input class="w3-input w3-section w3-border" type="email" name="email" placeholder="Email" required>
+
+                <input class="w3-input w3-section w3-border" type="text" name="subject" placeholder="Subject" required>
+
+                <textarea class="w3-input w3-section w3-border" name="message" placeholder="Comment"
+                    required></textarea>
+
                 <button class="w3-button w3-black w3-section" type="submit">
-                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    SEND MESSAGE
                 </button>
+
             </form>
         </div>
+
+        <!-- CONTACT INFO -->
 
         <div>
             <h2 style="text-align: center;">
                 Text or Call 336-964-6600
             </h2>
             <br>
+
+            <H2 style="text-align: center;"><a href="https://www.facebook.com/josiahsmithwoodworks/">          <i class="fa-brands fa-facebook fa-2x"></i>
+</a></H2>
+            <br></br>
         </div>
 
         <!-- Image of location/map -->
@@ -157,6 +200,8 @@
         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
                 class="w3-hover-text-green">w3.css</a></p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
